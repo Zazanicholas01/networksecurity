@@ -50,6 +50,7 @@ class NetworkDataExtract():
             raise NetworkSecurityException(e, sys)
 
 if __name__ == '__main__':
+
     FILE_PATH = "NetworkData/phisingData.csv"
     DATABASE = 'mydatabase'
     Collection = "NetworkData"
@@ -57,4 +58,3 @@ if __name__ == '__main__':
     records = networkobj.cv_to_json_converter(FILE_PATH)
     n_records = networkobj.insert_data_mongodb(records, DATABASE, Collection)
     print(n_records)
-
