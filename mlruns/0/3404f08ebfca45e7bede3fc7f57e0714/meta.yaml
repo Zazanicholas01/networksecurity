@@ -1,0 +1,14 @@
+artifact_uri: file:///home/nicholasesposito/networksecurity/mlruns/0/3404f08ebfca45e7bede3fc7f57e0714/artifacts
+end_time: 1758721049686
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3404f08ebfca45e7bede3fc7f57e0714
+run_name: useful-hound-604
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758721045758
+status: 3
+tags: []
+user_id: nicholasesposito

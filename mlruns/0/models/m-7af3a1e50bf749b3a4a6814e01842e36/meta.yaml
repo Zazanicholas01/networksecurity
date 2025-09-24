@@ -1,0 +1,10 @@
+artifact_location: file:///home/nicholasesposito/networksecurity/mlruns/0/models/m-7af3a1e50bf749b3a4a6814e01842e36/artifacts
+creation_timestamp: 1758721045785
+experiment_id: '0'
+last_updated_timestamp: 1758721049682
+model_id: m-7af3a1e50bf749b3a4a6814e01842e36
+model_type: null
+name: model
+source_run_id: 3404f08ebfca45e7bede3fc7f57e0714
+status: 2
+status_message: null
