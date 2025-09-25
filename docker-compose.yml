@@ -13,5 +13,13 @@ services:
     volumes:
       - mongodb_data:/data/db
 
+  fastapi:
+    build: .
+    container_name: fastapi-app
+    depends_on:
+      - mongodb
+    ports:
+      - "8000:8000"
+
 volumes:
   mongodb_data:
